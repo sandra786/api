@@ -1,0 +1,31 @@
+{
+    "0": {
+        "username": "sandra",
+        "password": "123456",
+        "email": "usuario1@example.com",
+        "full_name": "Usuario Uno",
+        "role": "user"
+    },
+    "1": {
+        "username": "usuario2",
+        "password": "contrase\u00f1a456",
+        "email": "usuario2@example.com",
+        "full_name": "Usuario Dos",
+        "role": "admin"
+    },
+    "sandra": "$2y$10$CsL6YybhXu59v2nfGEbfEOACwn3.2Z4hKQXXhl0Yf.TYWcwFWUvcO",
+    "maria": {
+        "username": "maria",
+        "password": "$2y$10$sPXeIabd2b.KnhW4pZcU5.4ZU\/wJycazDAf\/LL2Dq5lJpMNLErPf.",
+        "email": "mayacartagena98@gmail.com",
+        "full_name": "mary cabellos",
+        "role": "user"
+    },
+    "sol": {
+        "username": "sol",
+        "password": "$2y$10$xBxpDaEd9ho4nTockK.34.iZZekfhzD8hhZUIeEmKVTyMb7ACsbj2",
+        "email": "mari@gmail.com",
+        "full_name": "sol maria ",
+        "role": "user"
+    }
+}
