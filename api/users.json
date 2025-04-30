@@ -27,5 +27,26 @@
         "email": "mari@gmail.com",
         "full_name": "sol maria ",
         "role": "user"
+    },
+    "salome ": {
+        "username": "salome ",
+        "password": "$2y$10$tkaDF.D3j9PdTMtaIiztB.N4K5Zh0C43lA5V7IIK0\/LzjoYZ3ViBq",
+        "email": "salome@gmail.com",
+        "full_name": "salome camargo",
+        "role": "user"
+    },
+    "monica": {
+        "username": "monica",
+        "password": "$2y$10$wVaDs.stesNuUCOGOxYy2eyJsE8.tnlrSENqvE6bQWWTsf0T637ym",
+        "email": "monica@gmail.com",
+        "full_name": "monica herrera",
+        "role": "user"
+    },
+    "sandra123": {
+        "username": "sandra123",
+        "password": "$2y$10$vZ8FtXT.Lc13IBcTSoGFKO\/Sd.iGclkTLb5xC6.4n4.JJw2YmQSfG",
+        "email": "sandra@example.com",
+        "full_name": "",
+        "role": "user"
     }
 }

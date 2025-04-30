@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Baletas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Tienda de Baletas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form_login.html">Iniciar Sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register_form.html">Registrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrito.html">Carrito</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de Productos (Baletas) -->
+    <div class="container mt-5">
+        <h2>Productos Disponibles</h2>
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/baleta1.jpg" class="card-img-top" alt="Baleta 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Baleta Elegante</h5>
+                        <p class="card-text">Baleta de cuero de alta calidad, ideal para cualquier evento.</p>
+                        <p class="card-text"><strong>$30.00</strong></p>
+                        <button class="btn btn-primary btn-agregar-carrito"
+        data-nombre="Baleta Elegante"
+        data-precio="30.00"
+        data-id="1"
+        data-imagen="img/baleta1.jpg">Añadir al Carrito</button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 2 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/baleta2.jpg" class="card-img-top" alt="Baleta 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Baleta Rosa</h5>
+                        <p class="card-text">Baleta rosa con detalles brillantes, perfecta para bailarinas.</p>
+                        <p class="card-text"><strong>$25.00</strong></p>
+                        <button class="btn btn-primary btn-agregar-carrito"
+                        data-nombre="Baleta Rosa"
+                        data-precio="25.00"
+                        data-id="2"
+                        data-imagen="img/baleta2.jpg">Añadir al Carrito</button>
+                    
+
+                    </div>
+                </div>
+            </div>
+           <!-- Producto 3 -->
+<div class="col-md-4">
+    <div class="card mb-4">
+        <img src="img/baleta3.jpg" class="card-img-top" alt="Baleta 3">
+        <div class="card-body">
+            <h5 class="card-title">Baleta Negra Clásica</h5>
+            <p class="card-text">Baleta negra clásica, ideal para cualquier ocasión formal.</p>
+            <p class="card-text"><strong>$28.00</strong></p>
+            <button class="btn btn-primary btn-agregar-carrito"
+                data-nombre="Baleta Negra Clásica"
+                data-precio="28.00"
+                data-id="3"
+                data-imagen="img/baleta3.jpg">Añadir al Carrito</button>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2025 Tienda de Baletas. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Agregar Bootstrap JS y Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+

@@ -16,7 +16,10 @@ Este proyecto implementa una API sencilla en PHP que permite registrar usuarios 
 3. Usa Postman o Insomnia para enviar peticiones:
    - http://localhost/Sandra_Cartagena_AA5_EV01/api/register.php
    - http://localhost/Sandra_cartagena_AA5_EV01/api/login.php
-
+   -http://localhost/Sandra_Cartagena_AA5_EV01/api/index.html
+   -http://localhost/Sandra_Cartagena_AA5_EV01/api/register_form.html
+   http://localhost/Sandra_Cartagena_AA5_EV01/api/form_login.html
 ## Repositorio
 
-https://github.com/sandra786/api.git
+https://github.com/sandra786/Sandra_Cartagena_AA5_EV01.git
+
